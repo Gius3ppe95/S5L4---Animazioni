@@ -37,3 +37,25 @@ body {
   transform: rotate(0deg) scale(1.2);
   box-shadow: 5px 3px 10px 4px black;
 }
+
+/* Task animation*/
+.postit1 {
+  background-color: rgba(245, 245, 167, 0.866);
+  transform: rotate(-10deg);
+  transition: all 0.5s;
+}
+.postit2 {
+  background-color: rgba(161, 236, 185, 0.741);
+  transform: rotate(10deg);
+  transition: all 0.5s;
+}
+.postit3 {
+  background-color: rgb(158, 158, 231);
+  transform: rotate(-10deg);
+  transition: all 0.5s;
+}
+.postit4 {
+  background-color: rgb(199, 132, 62);
+  transform: rotate(10deg);
+  transition: all 0.5s;
+}
