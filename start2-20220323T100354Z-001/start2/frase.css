@@ -25,3 +25,50 @@ body {
   padding: 20px;
   width: 40vw;
 }
+.parole i {
+  position: absolute;
+  padding-left: 10px;
+  transform: translate(0px, -50vh);
+}
+.parole i:nth-of-type(1) {
+  color: rgba(200, 35, 13, 0.777);
+  animation-name: myanimation;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+.parole :nth-child(2) {
+  color: rgba(133, 216, 31, 0.87);
+  animation-name: myanimation;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+.parole :nth-child(3) {
+  color: rgba(58, 29, 188, 0.795);
+  animation-name: myanimation;
+  animation-duration: 6s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    transform: translate(0, -50vh);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  60% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0, +50vw);
+    opacity: 0;
+  }
+}
